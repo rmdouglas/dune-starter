@@ -10,6 +10,8 @@ build:
 test:
 	dune runtest -f
 
+utop:
+	dune utop
 install:
 	dune install
 
